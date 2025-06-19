@@ -12,6 +12,5 @@ public class Main3 {
             System.out.println(num +" is an odd number");
         }
 
-
     }
 }
