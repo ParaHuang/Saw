@@ -33,14 +33,6 @@ public class Main1 {
         System.out.println(x3);
     }
 
-    //3.no parameter with return
-    public static int generateNumber1to100(){
-        //a lot of code
-        Random random = new Random();
-        int result = random.nextInt(1,101);
-        return result;//this value usually is the result of process above
-    }
-
     //4.with parameter with return
     public static int addAbs(int a,int b){//find out the sum of absolute value of a and b
         //the absolute value of -5 is 5
@@ -57,6 +49,14 @@ public class Main1 {
 
         int result = a + b;
         return result;
+    }
+
+    //3.no parameter with return
+    public static int generateNumber1to100(){
+        //a lot of code
+        Random random = new Random();
+        int result = random.nextInt(1,101);
+        return result;//this value usually is the result of process above
     }
 
 
